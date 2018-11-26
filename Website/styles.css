@@ -1,0 +1,963 @@
+/*
+===================
+  GLOBAL STYLES
+===================
+ */
+ 
+
+ *
+ {
+ 	margin: 0px;
+ 	padding: 0px;
+ 	box-sizing: border-box;
+
+ }
+
+body {
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    color: #1a1a1a;
+    background-color: #1496c9;
+}
+
+ h1
+ {
+ 	font-size: 3em;
+ }
+h2
+{
+  font-size: 2em;
+
+}
+h3
+{
+	font-size:1.5em;
+}
+ /*
+ =====================
+ Hero Section Styling
+ =====================
+ */
+
+ .hero
+ {
+ 	height: 100vh;
+ 	background-color: #1996da;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;
+ 	color: #fff;
+ }
+.shadow
+{
+	text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+/** HEADER **/
+.navbar{
+	margin-bottom: 0px;
+}
+#header-nav {
+    background-color: #f2f2f2;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #7d1913;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+#nav-list {
+    background-color: #e4af34;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+
+/** END HEADER */
+
+
+
+
+
+/*
+========================
+Navigation Bar Section
+========================
+*/
+
+
+
+.menu
+{
+	background-color:  #333;
+	 height: 60px;
+	 width: 100%;
+
+			   
+}
+.menu ul
+{
+	text-align: center;
+
+}
+.menu ul li
+{
+  list-style: none;
+  text-decoration-style: none;
+  display: inline-block;
+}
+.menu ul li a
+{
+	text-decoration:none;
+	color: white;
+	display: inline-block;
+	line-height: 55px;
+	padding: 0px 15px 0px 15px;
+	font-size: 20px;
+	text-shadow: 2px 2px 2px black;
+}
+
+    .menu ul li a:hover 
+    {
+			    background-color: #005772;
+			    font-size: 25px;
+			    color:#cc9604;
+			    text-decoration: underline;
+			    
+			    
+	}
+
+
+
+
+
+	/*
+	============================
+		  SERVICE SECTION
+	============================
+	*/
+	.services
+	{
+     	width: 100%;
+		height: 600px;
+		background-color: hsl(0,0%,95%);
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+	.services h1
+	{
+		background: -webkit-linear-gradient(#333, red);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+  		font-style: italic;
+
+	}
+
+	.col-wrapper
+	{
+		width: 90%;
+		margin: auto;
+		padding-top: 50px;
+	}
+	.Service-col
+	{
+		border: 2px solid red;
+		border-style: dotted;
+		margin: 5px;
+		height: 400px;
+		width: 100%;
+		float: left;
+		padding: 10px 30px 10px 30px;
+	}
+	.img1
+	{
+		width: 170px;
+		height: 150px;
+		
+	}
+	.img2
+	{
+		width: 150px;
+	    height:150px;
+	   
+	}
+	.img3
+	{
+		width: 150px;
+		height: 150px;
+		
+		
+	}
+	.Service-col
+	{
+		max-width: 100%;
+	}	
+	.col-wrapper after
+	{
+		clear: both;
+		display: table;
+		content: "";
+	}
+	p
+	{
+		position: relative;
+		top: 20px;
+		text-align: justify;
+
+	}
+	.color
+	{
+		background: -webkit-linear-gradient(#333, red);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+  		font-style: italic;
+		
+	}
+
+
+
+		/*
+	==================================
+			ABOUT US SECTION
+	==================================
+	*/
+
+.AboutUs
+{
+	padding-bottom: 5px;
+	padding-top: 5px; 
+	text-align: center;
+	background-image: url(2.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: repeat-y;
+	height: 550px;
+	color: white;
+	
+}
+	.Heading
+	{
+		text-align: center;
+		font-size: 40px;
+		text-decoration: underline;
+		background-color: rgba(0,0,0,0.3);
+		display: inline-block;
+		font-family: Informal Roman;
+		
+		}
+	.content
+	{
+		
+		width: 80%;
+		margin: auto;
+		background-color: rgba(0,0,0,0.09);
+		text-shadow: 0.03px 0.03px 0.01px aqua;
+		font-family: High Tower Text;
+		font-size: 1.1em;
+		font-style: normal;
+        padding:10px;
+        word-spacing: 5px;
+        line-height: 24px;
+		color: #2eea0d;
+
+	}
+
+	.Button
+	{
+		background-color: rgba(0,0,0,1);
+		color: yellow;
+		text-shadow: 0.04px 0.04px 0.04px green;
+		cursor: pointer;
+		padding: 10px 15px 10px 15px;
+		border:none;
+		outline: 2px solid yellow;
+		font-style: italic;
+	}
+
+
+
+
+
+
+
+		/*
+	==================================
+			OUR TEAM SECTION
+	==================================
+	*/
+
+ .Team
+ {
+ 	padding-top: 100px;
+ 	padding-bottom: 100px;
+ 	background-color:hsl(0,0%,95%);
+ 	width: 100%;
+ 	text-align: center;
+ }
+ .Team-heading
+ {
+     font-size: 40px;
+     color:#FFD700;
+     text-shadow: 2px 2px 2px black;
+     text-decoration: underline;
+     text-underline-position: under;
+     text-decoration-style: solid;
+
+  }
+.Team-wrapper
+{
+    width: 90%;
+    padding-top:50px;
+ 	margin: auto;
+}
+.Col-Team
+{
+	width: 33.3%;
+	float: left;
+	padding: 10px 30px 10px 30px;
+}
+.Col-Team img
+{
+	width: 90px;
+	max-width: 100%;
+	padding-bottom: 5px;
+}
+.Col
+{
+	max-width: 200px;
+	max-height: 170px;
+	border: 1px solid rgba(0,0,0,0.05);
+	box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.05);
+	padding: 10px;
+}
+.Team-wrapper:after
+{
+	clear: both;
+	content: "";
+	display: table;
+}
+.Names
+{
+	 background: -webkit-linear-gradient(#333, #f00);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+  		font-style: italic;
+  		font-size: 20px;
+}
+.Squad
+{
+	
+	font-family: roman;
+	color: #000;
+	font-size: 16px;
+}
+/*
+=============================
+Contact Information Section
+=============================
+*/
+
+.Contacts
+{
+	width: 100%;
+	background-color: rgb(242, 242, 242);
+}
+.Information
+{
+	background-color: #333;
+	 width: 100%;
+	 padding: 30px 5px 30px 5px;
+	 text-align: center;
+}
+.Information-Col
+{
+	width: 33.33%;
+	float: left;
+
+}
+.Information-Col h4
+{
+	display: inline-block;
+	position: relative;
+	bottom: 4px;
+	font-size: 18px;
+	font-family:Georgia;
+	text-shadow: 2px 2px 2px #000;
+	color: #f0e68c;
+}
+
+.Information-Col i
+{
+	color: #fff;
+	text-shadow: 3px 3px 3px #000;
+}
+.Information-Col a
+{
+	text-decoration:none;
+}
+.Information::after
+{
+	clear: both;
+	content:"";
+	display: table;
+}
+
+/*
+========================
+Main Contact Section
+========================
+*/
+
+.Contacts-info
+{
+	width: 100%;
+	padding: 30px 5px 30px 5px;
+	text-align: center;
+	
+}
+
+.Contacts-info1
+{	margin-top: 20px;
+	width: 35%;
+	float: left;
+	padding: 30px 5px 30px 5px;
+	
+}
+.Contacts-info1 h3
+{
+	font-size: 25px;
+      background: -webkit-linear-gradient(#333, #f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+     
+
+}
+.Contacts-info2
+{
+	width: 65%;
+	padding: 30px 5px 30px 5px;
+	float: left;
+	padding-right:10%;
+}
+
+.Contacts-info::after
+{
+	clear: both;
+	content: "";
+	display: table;
+}
+/*
+======================
+SOCIAL MEDIA SECTION
+======================
+*/
+#Bold_Tag
+{
+	font-size: 25px;
+	 background: -webkit-linear-gradient(#333, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+}
+.Contacts-info1 .fa-envelope
+{
+	
+  background: -webkit-linear-gradient(#333, #f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ .Contacts-info1 .fa-phone-square
+ {
+ 	 background: -webkit-linear-gradient(#333, #f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+ }
+.Contacts-info1 a
+{
+	text-decoration: none;
+	color: #000;
+
+}
+.Social_Media_Icons
+{
+	padding: 15px;
+	border:1px solid hsla(0,0%,50%);
+}
+
+.Facebook
+{
+	background-color: #3b5999;
+	border-radius: 10%;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	font-family: Facebook Letter Faces, Arial;
+}
+.Twitter
+{
+	background-color:#0084FF; 
+	color:#fff;
+	border-radius: 10%;
+	text-shadow: 2px 2px 2px #000;
+}
+.Youtube
+{
+	background-color: #cd201f;
+	color: #fff;
+	border-radius: 10%;
+	text-shadow: 2px 2px 2px #000;
+}
+.Googleplus
+{
+	background-color: #dd4b39;
+	color: #fff;
+	border-radius: 10%;
+	text-shadow: 2px 2px 2px #000;
+}
+.Instagram
+{
+  display: inline-block;
+
+  border-radius: 10px;
+  color: #fff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
+}
+
+.Social_Media_Icons:hover
+{    box-sizing: border-box;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,.6);
+	transform: translate3d(-10px);
+}
+
+/*
+============================
+  CONTACT INFO 2 SECTION
+============================
+*/
+.Contacts-info2 h6
+{
+	font-size: 30px;
+	 background: -webkit-linear-gradient(#333, #f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  position: relative;
+  right: 15px;
+}
+.Form-Col
+{
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+}
+
+.Name-Field, .Email-Field
+{
+	width: 100%;
+	height: 35px;
+	padding: 0px 5px 0px 5px;
+	background-color: #fff;
+	border:none;
+	outline: none;
+	box-shadow: 1px 1px 1px 1px #000;
+}
+.Edit
+{    font-size: 18px;
+	background: -webkit-linear-gradient(#333, #f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  float: left;
+  font-weight: bold;
+}
+.Edit1
+{    font-size: 18px;
+	background: -webkit-linear-gradient(#333, #f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  float: left;
+  position: relative;
+  top: 15px;
+}
+
+.Message
+{
+	width: 100%;
+	height: 230px;
+	border:none;
+	outline: none;
+	box-shadow: 1px 1px 1px 1px #000;
+	margin-top: 20px; 
+}
+.Send-Button
+{
+   border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  background-image: linear-gradient(45deg, #4568DC, #B06AB3);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 22px 44px rgba(128, 128, 128, 0.1);
+  transition: box-shadow 0.25s;
+  float: left;
+  margin-top:15px; 
+}
+button .text 
+{
+  -webkit-background-clip: text;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+   background-color: #fff;
+}
+button:after
+ {
+  content: "";
+  border-radius: 4px;
+  position: absolute;
+  margin: 1px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+ background-blend-mode: multiply,multiply;
+box-shadow: 1px 1px 1px 1px black;
+}
+button:hover 
+{
+background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+button:hover .text 
+{
+	background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+
+/*
+=======================
+	FOOTER SECTION
+=======================
+*/
+.Footer
+{
+	background-color:  #333;
+	 height: 110px;
+	 width: 100%;
+	 text-align: center;
+}
+.Footer ul
+{
+	text-align: center;
+
+}
+.Footer ul li
+{
+  list-style: none;
+  text-decoration-style: none;
+  display: inline-block;
+}
+.Footer ul li a
+{
+	text-decoration:none;
+	color: #fff;
+	text-decoration: underline;
+	text-decoration-line: inherit;
+	display: inline-block;
+	line-height: 55px;
+	padding: 0px 15px 0px 15px;
+	font-size: 17px;
+	text-shadow: 2px 2px 2px #000;
+}
+ .Footer ul li a:hover 
+    {
+			    color:#cc9604;
+			   	    
+	}
+   #Copyright
+   {
+   	text-align: center;
+   	color: white;
+   	text-shadow: 2px 2px 2px #000;
+   }
+   #Upper
+   {
+   	font-size: 15px;
+   }
+
+
+
+/*
+========================
+   CSS MEDIA QUERIES
+========================
+
+*/
+
+
+
+
+
+
+.row {
+    width: 100%;
+}
+
+	/* Desktop version begins */
+
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 74.99%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+/* Desktop version ends */
+
+
+
+/* Tablet version begins */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 74.99%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+
+.services
+	{
+		height: 970px;
+}
+
+.AboutUs
+{
+
+	height: 645px;	
+}
+
+
+}
+/* Tablet version ends */
+
+
+
+/* Mobile version begins */
+
+@media (max-width: 767px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-1 {
+        width: 8.33%;
+    }
+    .col-sm-2 {
+        width: 16.66%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.33%;
+    }
+    .col-sm-5 {
+        width: 41.66%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.33%;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+    }
+    .col-sm-9 {
+        width: 74.99%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+
+
+
+
+
+.hero
+	{
+		width: 100%;
+	}
+	.shadow
+	{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.AboutUs
+	{
+		height: 1640px;
+
+	}
+	.button
+	{
+		position: relative;
+		bottom:1200px;
+	}
+	.Col-Team
+	{
+		width: 100%;
+		padding-top: 100px;
+		position: relative;
+		bottom: 115px;
+    }
+    .Information-Col
+    {
+    	width: 100%;
+    	padding-top: 25px;
+    	padding-bottom: 25px;
+    }
+    .Contacts-info1
+    {
+    	width: 100%;
+    	padding-top: 100px;
+    }
+    .Contacts-info2
+    {
+    	width: 100%;
+    	padding-top: 100px;
+    	padding-right: 0px;
+
+    }
+    .Form-Col
+    {
+    	width: 100%;
+    	margin-top: 10px;
+    }
+    .services
+	{
+		height: 1400px;
+    }
+
+ }
+
+
+
+
+
+/* Mobile version ends */
